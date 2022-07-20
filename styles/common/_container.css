@@ -1,0 +1,28 @@
+.container {
+    max-width: 1100px;
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+}
+
+.main {
+    overflow: hidden;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.section {
+    padding: 5.5rem 0 1rem;
+}
+
+.section__title,
+.section__title--center {
+    font-size: var(--h2-font-size);
+    margin-bottom: var(--mb-2);
+    line-height: 140%;
+}
+
+.section__title--center {
+    text-align: center;
+}
