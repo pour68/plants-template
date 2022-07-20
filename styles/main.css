@@ -1,20 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
-@import url(./base/_variables.css);
-@import url(./base/_reset.css);
+@import url(https://github.com/pour68/plants-template/tree/master/styles/base/_variables.css);
+@import url(https://github.com/pour68/plants-template/tree/master/styles/base/_reset.css);
 
-@import url(./common/_container.css);
-@import url(./common/_theme.css);
-@import url(./common/_scrollup.css);
-@import url(./common/_scrollbar.css);
+@import url(https://github.com/pour68/plants-template/tree/master/styles/common/_container.css);
+@import url(https://github.com/pour68/plants-template/tree/master/styles/common/_theme.css);
+@import url(https://github.com/pour68/plants-template/tree/master/styles/common/_scrollup.css);
+@import url(https://github.com/pour68/plants-template/tree/master/styles/common/_scrollbar.css);
 
-@import url(./components/_button.css);
+@import url(https://github.com/pour68/plants-template/tree/master/styles/components/_button.css);
 
-@import url(./layouts/_nav.css);
-@import url(./layouts/_footer.css);
+@import url(https://github.com/pour68/plants-template/tree/master/styles/layouts/_nav.css);
+@import url(https://github.com/pour68/plants-template/tree/master/styles/layouts/_footer.css);
 
-@import url(./utils/_padding.css);
-@import url(./utils/_margin.css);
+@import url(https://github.com/pour68/plants-template/tree/master/styles/utils/_padding.css);
+@import url(https://github.com/pour68/plants-template/tree/master/styles/utils/_margin.css);
 
-@import url(./pages/_index.css);
-@import url(./common/_breakpoints.css);
+@import url(https://github.com/pour68/plants-template/tree/master/styles/pages/_index.css);
+@import url(https://github.com/pour68/plants-template/tree/master/styles/common/_breakpoints.css);
