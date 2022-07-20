@@ -1,3 +1,5 @@
+@use "../base/variables" as *;
+
 ::-webkit-scrollbar {
     width: .6rem;
     background: hsl(var(--hue), 4%, 53%);

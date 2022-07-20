@@ -1,3 +1,5 @@
+@use "../base/variables" as *;
+
 body.dark-theme {
     --first-color-dark: hsl(var(--hue), 8%, 20%);
     --title-color: hsl(var(--hue), 4%, 95%);

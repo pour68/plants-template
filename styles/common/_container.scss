@@ -1,3 +1,5 @@
+@use "../base/variables" as *;
+
 .container {
     max-width: 1100px;
     margin-left: var(--mb-1-5);

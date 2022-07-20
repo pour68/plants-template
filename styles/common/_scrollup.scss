@@ -1,3 +1,5 @@
+@use "../base/variables" as *;
+
 .scrollup {
     position: fixed;
     background-color: var(--first-color);

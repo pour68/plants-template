@@ -1,7 +1,9 @@
+@use "../base/variables" as *;
+
 .button {
     display: inline-block;
     background-color: var(--first-color);
-    color: #FFF;
+    color: #fff;
     padding: 1rem 1.75rem;
     border-radius: .5rem;
     font-weight: var(--fs-md);
