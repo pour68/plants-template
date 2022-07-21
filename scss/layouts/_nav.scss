@@ -16,67 +16,67 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 1rem;
+}
 
-    &__logo,
-    &__toggle,
-    &__close {
-        color: var(--title-color);
-    }
+.nav__logo,
+.nav__toggle,
+.nav__close {
+    color: var(--title-color);
+}
 
-    &__logo {
-        text-transform: uppercase;
-        font-weight: 700;
-        letter-spacing: -1px;
-        display: inline-flex;
-        align-items: center;
-        column-gap: 0.5rem;
-        transition: 0.3s;
-    }
+.nav__logo {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: -1px;
+    display: inline-flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    transition: 0.3s;
+}
 
-    &__logo--icon {
-        font-size: 1.15rem;
-        color: var(--first-color);
-    }
+.nav__logo--icon {
+    font-size: 1.15rem;
+    color: var(--first-color);
+}
 
-    &__logo:hover {
-        color: var(--first-color);
-    }
+.nav__logo:hover {
+    color: var(--first-color);
+}
 
-    &__toggle {
-        display: inline-flex;
-        font-size: 1.25rem;
-        cursor: pointer;
-    }
+.nav__toggle {
+    display: inline-flex;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
 
-    &__btns {
-        display: inline-flex;
-        align-items: center;
-        column-gap: 1rem;
-    }
+.nav__btns {
+    display: inline-flex;
+    align-items: center;
+    column-gap: 1rem;
+}
 
-    &__close {
-        font-size: 1.5rem;
-        position: absolute;
-        top: 1rem;
-        right: 1.25rem;
-        cursor: pointer;
-    }
+.nav__close {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 1rem;
+    right: 1.25rem;
+    cursor: pointer;
+}
 
-    &__list {
-        display: flex;
-        flex-direction: column;
-        row-gap: 1.5rem;
-    }
+.nav__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
 
-    &__link {
-        color: var(--title-color);
-        font-weight: var(--fw-medium);
-        transition: 0.3s;
-    }
+.nav__link {
+    color: var(--title-color);
+    font-weight: var(--fw-medium);
+    transition: 0.3s;
+}
 
-    &__link:hover {
-        color: var(--first-color);
-    }
+.nav__link:hover {
+    color: var(--first-color);
 }
 
 .show-menu {
