@@ -1,7 +1,8 @@
 @use "../base/variables" as *;
+@use "../base/mixin" as *;
 
 .footer {
-    padding: 1rem;
+    @include set-left-and-right-padding;
 
     &__container {
         row-gap: 3rem;
@@ -10,7 +11,7 @@
     &__logo {
         display: inline-flex;
         align-items: center;
-        column-gap: .5rem;
+        column-gap: 0.5rem;
         color: var(--title-color);
         text-transform: uppercase;
         font-weight: 700;

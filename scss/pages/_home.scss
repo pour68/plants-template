@@ -1,8 +1,9 @@
 @use "../base/variables" as *;
+@use "../base/mixin" as *;
 
 /* home */
 .home {
-    padding: 3.5rem 1rem 2rem;
+    padding: 4rem 1rem 2rem;
 
     &__container {
         position: relative;
@@ -71,7 +72,7 @@
 
 /* about */
 .about {
-    padding: 1rem;
+    @include set-left-and-right-padding;
 
     &__container {
         row-gap: 2rem;
@@ -159,7 +160,7 @@
 
 /* products */
 .product {
-    padding: 1rem;
+    @include set-left-and-right-padding;
 
     &__description {
         text-align: center;
@@ -228,7 +229,7 @@
 /* questions */
 .questions {
     background-color: var(--first-color-lighten);
-    padding: 1rem;
+    @include set-left-and-right-padding;
 
     &__container {
         gap: 1.5rem;
@@ -308,7 +309,7 @@
 
 /* contact */
 .contact {
-    padding: 1rem;
+    @include set-left-and-right-padding;
 
     &__container {
         row-gap: 3.5rem;
