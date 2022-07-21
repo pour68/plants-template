@@ -18,16 +18,19 @@ body.dark-theme {
     cursor: pointer;
 }
 
-.dark-theme .steps__bg,
-.dark-theme .questions {
-    background-color: var(--first-color-dark);
-}
+.dark-theme {
 
-.dark-theme .product__circle,
-.dark-theme .footer__subscribe {
-    background-color: var(--container-color);
-}
+    & .steps__bg,
+    & .questions {
+        background-color: var(--first-color-dark);
+    }
 
-.dark-theme .scroll-header {
-    box-shadow: 0 1px 4px hsla(var(--hue), 4%, 4%, 0.3);
+    & .product__circle,
+    & .footer__subscribe {
+        background-color: var(--container-color);
+    }
+
+    & .scroll-header {
+        box-shadow: 0 1px 4px hsla(var(--hue), 4%, 4%, 0.3);
+    }
 }
