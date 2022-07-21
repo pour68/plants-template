@@ -115,7 +115,6 @@
     &__bg {
         background-color: var(--first-color);
         padding: 3rem 1rem 2rem;
-        border-radius: 1rem;
     }
 
     &__container {
@@ -130,7 +129,6 @@
     &__card {
         background-color: var(--container-color);
         padding: 2.5rem 3rem 2rem 1.5rem;
-        border-radius: 1rem;
     }
 
     &__card--number {
@@ -138,7 +136,6 @@
         background-color: var(--first-color-alt);
         color: #fff;
         padding: 0.5rem 0.75rem;
-        border-radius: 0.25rem;
         font-size: var(--fs-xl);
         margin-bottom: var(--mb-3);
         transition: 0.3s;
@@ -201,9 +198,8 @@
         right: 0;
         bottom: 0;
         background-color: var(--first-color);
-        color: #FFF;
-        padding: .25rem;
-        border-radius: .35rem;
+        color: #fff;
+        padding: 0.25rem;
         font-size: 1.15rem;
     }
 
@@ -325,7 +321,7 @@
         font-size: var(--normal-font-size);
         font-weight: var(--font-medium);
         color: var(--text-color);
-        margin-bottom: var(--mb-0-5);
+        margin-bottom: var(--mb-1);
     }
 
     &__description {
@@ -333,7 +329,7 @@
         align-items: center;
         column-gap: .5rem;
         color: var(--title-color);
-        font-weight: var(--font-medium);
+        font-weight: var(--fw-medium);
     }
 
     &__icon {
